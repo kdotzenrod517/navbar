@@ -1,5 +1,6 @@
 package com.example.kdotz.blank;
 
+import android.app.ActionBar;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -14,13 +15,13 @@ public class ThingDetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_thing_detail);
 
-        if( getSupportActionBar() != null ) {
-            getSupportActionBar().setDisplayShowHomeEnabled(true);
-            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        }
-
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+
+        if( getSupportActionBar() != null ) {
+         getSupportActionBar().setDisplayShowHomeEnabled(true);
+         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+         }
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

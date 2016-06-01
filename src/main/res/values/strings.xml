@@ -1,10 +1,21 @@
 <resources>
-    <string name="app_name">Blank</string>
+    <string name="app_name">Main Menu</string>
     <string name="action_settings">Settings</string>
+    <string name="firstaction">first</string>
+    <string name="secondaction">second</string>
     <string-array name="things_list">
         <item>Puppy</item>
         <item>Dog</item>
         <item>Bunny</item>
     </string-array>
     <string name="title_activity_thing_detail">ThingDetailActivity</string>
-</resources>
+
+    <string-array name="items">
+    <item>Item 1</item>
+    <item>Item 2</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    </resources>

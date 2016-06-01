@@ -1,5 +1,6 @@
 package com.example.kdotz.blank;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
@@ -16,6 +17,8 @@ public class ThingDetailActivityFragment extends Fragment {
     public ThingDetailActivityFragment() {
     }
 
+
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -31,6 +34,7 @@ public class ThingDetailActivityFragment extends Fragment {
         return rootView;
 
     }
+
 }
 
 
